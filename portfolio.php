@@ -14,9 +14,6 @@
         </div>
         <div class="row">
             <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "#bw2ds4mlt";
             $dbname = "ajing_productions";
             $projects_modals = array();
             $project_tiles = array();
