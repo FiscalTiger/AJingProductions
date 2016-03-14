@@ -2,8 +2,13 @@
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ *
  */
 
+
+/*
+ * I changed all of the colors in this theme to my own
+ */
 body {
     overflow-x: hidden;
 }
@@ -46,6 +51,7 @@ hr.star-primary {
     text-align: center;
 }
 
+/*I changed this star-primary to the rebel symbol from Star Wars*/
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f1d0";
@@ -170,6 +176,7 @@ header .intro-text .skills {
     border: 0;
 }
 
+/* I addes this class emphasize the A, J, and P in my logo*/
 span.brand-emphasis {
     color:#935347;
 }
@@ -462,4 +469,5 @@ footer .footer-below {
     opacity: 0;
 }
 
+/* I added this class for spacing in my about section */
 .top-buffer { margin-top:20px; }

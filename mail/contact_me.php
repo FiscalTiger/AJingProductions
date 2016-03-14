@@ -11,6 +11,7 @@ if(empty($_POST['name'])  		||
    }
 
 $dbname = "ajing_productions";
+
 // Create connection
 $conn = new mysqli(
 ini_get("mysql.default_host"),
@@ -23,6 +24,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Use real_escape_string to avoid sql injection attacks
 $name = $conn->real_escape_string($_POST['name']);
 $email = $conn->real_escape_string($_POST['email']);
 $phone = $conn->real_escape_string($_POST['phone']);
@@ -31,6 +33,7 @@ $message = $conn->real_escape_string($_POST['message']);
 
 $sql = "INSERT INTO contacts (name, email, phone, message) VALUES('$name', '$email', '$phone', '$message')";
 
+// On success return true, else return false
 if ($conn->query($sql) === TRUE) {
     $conn->close();
 } else {

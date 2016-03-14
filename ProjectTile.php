@@ -13,7 +13,9 @@ class ProjectTile
         $this->png = $new_png;
         $this->proj_id = $new_id;
     }
-
+    /*
+        Use this function to out put the html for each project tile
+    */
     function __toString()
     {
         $ans = <<<EOT
