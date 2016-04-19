@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <?php include 'head.php';?>
+    <?php include 'views/head.php';?>
 
     <body id="page-top" class="index">
 
         <?php
-            include 'navbar.php';
-            include 'header.php';
-            include 'portfolio.php';
-            include 'about.php';
-            include 'contact.php';
-            include 'footer.php';
+            include 'views/navbar.php';
+            include 'views/header.php';
+            include 'views/portfolio.php';
+            include 'views/about.php';
+            include 'views/contact.php';
+            include 'views/footer.php';
         ?>
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
