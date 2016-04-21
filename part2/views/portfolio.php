@@ -27,6 +27,7 @@
 
             // Check connection
             if ($conn->connect_error) {
+                $conn->close();
                 die("Connection failed: " . $conn->connect_error);
             }
 
@@ -57,7 +58,7 @@
 <?php
 /*
     Print out the modals with the following information
-    
+
     ● State the project title.
 
     ● State the problem you wanted to solve / opportunity you wanted to explore / goal you

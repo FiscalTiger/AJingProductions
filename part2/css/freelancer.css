@@ -5,6 +5,87 @@
  *
  */
 
+#about-personal {
+    background-image: url("../img/about_personal.png");
+}
+
+#about-triangle {
+    background-image: url("../img/about_triangle.png");
+}
+
+.background-fixed {
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.about-personal-title {
+    width: 940px;
+    padding-top: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.about-personal-title > h2 {
+    font: 80px/1.025em 'Josefin Slab', serif, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 40px;
+    line-height: 1.025em;
+    font-family: Josefin Slab, serif, Arial, sans-serif;
+    letter-spacing: -0.02em;
+    word-wrap: break-word;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.about-blurp {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.triangle-blurp {
+    padding-top: 200px;
+    padding-bottom: 200px
+}
+
+.triangle-blurp > p {
+    padding-top: 50px;
+}
+
+.triangle-blurp > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checklist {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.checklist > li:before {
+    font-family: 'FontAwesome';
+    content: '\f14a';
+    margin:0 5px 0 -15px;
+}
+
+
 
 /*
  * I changed all of the colors in this theme to my own
