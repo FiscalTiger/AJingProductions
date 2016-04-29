@@ -1,0 +1,28 @@
+What did you change/enhance from part 1?
+
+    I made my about section more interesting by adding two parallax affects and organizing the content
+    more.  I added a checklist of skills I have to make it look more professional.  Lastly, I added a
+    call to the xkcd api that pulls their latest comic.  I think my website looks a lot more interesting
+    and fun to look at than its previous version.
+
+If there was a third part to the class project, what would you like to implement?
+
+    I would spend most of my time on making the content better and putting more into the graphics.
+    Since the site is just a portfolio site, there isn't than many technological advancements to be
+    made, but I definitely can continue to add content that represents the kind of person I am.
+
+What did you learn between part 1 and part 2?
+
+    How to make an AJAX request and Jquery.  These to things have made my web skills way more versatile,
+    and I feel as if I can actually call myself a web programmer.  Because of this website, I actually got
+    an interview for a web developer internship and I am still in the process of interviewing for them.
+
+What did you like about this project? How could it have been better?
+
+    I like the freedom that you gave to make whatever we wanted, that way you got what you wanted out of the project
+    rather than just doing a chore.  I would however liked for there to be more of a sprint like deadline system.
+    This way you can get constant feedback from you or the TA as you slowly implement features rather than just two
+    large submissions.
+
+Thanks for the great semester and best of luck,
+Andrew Pouleson

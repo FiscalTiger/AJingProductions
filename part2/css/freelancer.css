@@ -85,6 +85,11 @@
     margin:0 5px 0 -15px;
 }
 
+.funny {
+    color: #ede9ce;
+    background: #4e5754;
+}
+
 
 
 /*
@@ -123,7 +128,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-dark {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -134,7 +140,8 @@ hr.star-primary {
 
 /*I changed this star-primary to the rebel symbol from Star Wars*/
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after {
     content: "\f1d0";
     display: inline-block;
     position: relative;
@@ -151,6 +158,15 @@ hr.star-light {
 hr.star-light:after {
     color: #ede9ce;
     background-color: #c7ad88;
+}
+
+hr.star-dark {
+    border-color: #ede9ce;
+}
+
+hr.star-dark:after {
+    color: #ede9ce;
+    background-color: #4e5754;
 }
 
 hr.star-primary {

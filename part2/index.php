@@ -10,6 +10,7 @@
             include 'views/header.php';
             include 'views/portfolio.php';
             include 'views/about.php';
+            include 'views/somethingFunny.php';
             include 'views/contact.php';
             include 'views/footer.php';
         ?>
@@ -39,6 +40,7 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/freelancer.js"></script>
+        <script src="js/xkcd.js"></script>
 
     </body>
 
